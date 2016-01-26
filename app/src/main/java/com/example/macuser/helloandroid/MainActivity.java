@@ -12,12 +12,12 @@ import android.util.*;
 public class MainActivity extends AppCompatActivity {
 
     //TAG == APPNAME
-    private static String TAG = "This is a TAG";
+    private static String TAG = "HelloAndroid";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.cat(TAG, " jay p 123 456 7890");
+        Log.i(TAG, " Jay Pandya 062791132");
         setContentView(R.layout.activity_main);
     }
 
